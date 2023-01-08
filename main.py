@@ -8,6 +8,7 @@ from app.counting_sort import counting_sort
 from app.bucket_sort import bucket_sort
 from app.shell_sort import shell_sort
 from app.comb_sort import comb_sort
+from app.cycle_sort import cycle_sort
 
 unsorted_list = [5, 3, 8, 6, 7, 2, 1, 4, 9, 0, 5, 3, 8, 6, 7, 2, 1, 4, 9, 0, 2, 5, 7, 1, 0]
 
@@ -42,3 +43,6 @@ print("sorted list: ", shell_sort(unsorted_list.copy()))
 
 print("***** Comb Sort *****")
 print("sorted list: ", comb_sort(unsorted_list.copy()))
+
+print("***** Cycle Sort *****")
+print("sorted list: ", cycle_sort(unsorted_list.copy()))
