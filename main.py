@@ -6,6 +6,7 @@ from app.quick_sort import quick_sort
 from app.heap_sort import heap_sort
 from app.counting_sort import counting_sort
 from app.bucket_sort import bucket_sort
+from app.shell_sort import shell_sort
 
 unsorted_list = [5, 3, 8, 6, 7, 2, 1, 4, 9, 0, 5, 3, 8, 6, 7, 2, 1, 4, 9, 0, 2, 5, 7, 1, 0]
 
@@ -34,3 +35,6 @@ print("sorted list: ", counting_sort(unsorted_list.copy()))
 
 print("***** Bucket Sort *****")
 print("sorted list: ", bucket_sort(unsorted_list.copy()))
+
+print("***** Shell Sort *****")
+print("sorted list: ", shell_sort(unsorted_list.copy()))
