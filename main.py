@@ -13,6 +13,7 @@ from app.pancake_sort import pancake_sort
 from app.gnome_sort import gnome_sort
 from app.stooge_sort import stooge_sort
 from app.pigeonhole_sort import pigeonhole_sort
+from app.oddeven_sort import oddeven_sort
 
 unsorted_list = [5, 3, 8, 6, 7, 2, 1, 4, 9, 0, 5, 3, 8, 6, 7, 2, 1, 4, 9, 0, 2, 5, 7, 1, 0]
 
@@ -62,3 +63,6 @@ print("sorted list: ", stooge_sort(unsorted_list.copy()))
 
 print("***** Pigeonhole Sort *****")
 print("sorted list: ", pigeonhole_sort(unsorted_list.copy()))
+
+print("***** Odd-Even Sort *****")
+print("sorted list: ", oddeven_sort(unsorted_list.copy()))
