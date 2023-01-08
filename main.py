@@ -15,6 +15,7 @@ from app.stooge_sort import stooge_sort
 from app.pigeonhole_sort import pigeonhole_sort
 from app.oddeven_sort import oddeven_sort
 from app.cocktail_sort import cocktail_sort
+from app.sleep_sort import sleep_sort
 
 unsorted_list = [5, 3, 8, 6, 7, 2, 1, 4, 9, 0, 5, 3, 8, 6, 7, 2, 1, 4, 9, 0, 2, 5, 7, 1, 0]
 
@@ -70,3 +71,6 @@ print("sorted list: ", oddeven_sort(unsorted_list.copy()))
 
 print("***** Cocktail Sort *****")
 print("sorted list: ", cocktail_sort(unsorted_list.copy()))
+
+print("***** Sleep Sort *****")
+print("sorted list: ", sleep_sort(unsorted_list.copy()))
